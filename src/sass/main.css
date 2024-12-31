@@ -9,7 +9,7 @@
     width: 480px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .container {
     width: 768px;
   }
@@ -18,6 +18,10 @@
   .container {
     width: 1264px;
   }
+}
+
+body {
+  font-family: "Montserrat";
 }
 
 a {
@@ -56,4 +60,5 @@ img {
 
 button {
   border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
