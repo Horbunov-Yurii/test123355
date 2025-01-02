@@ -1,0 +1,42 @@
+.delivery {
+    padding-top: 100px;
+    padding-bottom: 69px;
+
+    &__title {
+        color: $text-color;
+font-size: 44px;
+font-weight: 700;
+line-height: 1.22;
+
+@media screen and (min-width: 480px) {
+ font-size: 24px;
+   }
+    }
+
+    &__span {
+        color: $text-color;
+font-size: 26px;
+font-weight: 500;
+line-height: 1.23;
+
+
+@media screen and (min-width: 480px) {
+    font-size: 20px;
+      }
+    }
+
+    &__text {
+        color: $text-color;
+font-size: 32px;
+font-weight: 500;
+line-height: normal;
+
+@media screen and (min-width: 480px) {
+    font-size: 14px;
+   }
+
+   @media screen and (min-width: 720px) {
+    font-size: 24px;
+   }
+    }
+}
