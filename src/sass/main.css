@@ -61,4 +61,9 @@ img {
 button {
   border: none;
   cursor: pointer;
+}
+
+.footer {
+  padding-top: 72px;
+  padding-bottom: 72px;
 }/*# sourceMappingURL=main.css.map */
