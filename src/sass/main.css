@@ -162,4 +162,31 @@ button {
     font-size: 16px;
     line-height: 1.18;
   }
+}
+.footer .addres__title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+@media screen and (min-width: 720px) {
+  .footer .addres__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.footer .addres__link {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 720px) {
+  .footer .addres__link {
+    font-size: 16px;
+    line-height: normal;
+  }
 }/*# sourceMappingURL=main.css.map */
