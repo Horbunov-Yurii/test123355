@@ -70,4 +70,42 @@ line-height: 1.21;
     
    }
 }
+
+.addres {
+
+    &__title {
+        color: $footer-color;
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: normal;
+
+        @media screen and (min-width: 720px) {
+            font-size: 20px;
+font-weight: 700;
+line-height: normal;
+        }
+     
+        @media screen and (min-width: 1264px) {
+         
+        }
+    }
+
+    &__link {
+        color: $footer-color;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+
+        @media screen and (min-width: 720px) {
+            font-size: 16px;
+            line-height: normal;
+           }
+        
+           @media screen and (min-width: 1264px) {
+            
+           }
+    }
+}
 }
