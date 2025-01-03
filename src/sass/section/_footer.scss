@@ -1,0 +1,73 @@
+.footer {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color: $text-color;
+
+    &__title {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.22;
+
+   @media screen and (min-width: 720px) {
+    line-height: 1.2;
+    font-size: 20px;
+   }
+
+   @media screen and (min-width: 1264px) {
+    
+   }
+    }
+
+    &__link {
+        color: $footer-color;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.22;
+
+        @media screen and (min-width: 720px) {
+font-size: 16px;
+line-height: 1.18;
+           }
+        
+           @media screen and (min-width: 1264px) {
+            
+           }
+    }
+
+    &__title {
+        color: $footer-color;
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.22;
+
+        @media screen and (min-width: 720px) {
+            font-size: 20px;
+            line-height: 1.2;
+           }
+        
+           @media screen and (min-width: 1264px) {
+            
+           }
+    }
+
+    &__text {
+        color: $footer-color;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.21;
+
+@media screen and (min-width: 720px) {
+    font-size: 16px;
+    line-height: 1.18;
+   }
+
+   @media screen and (min-width: 1264px) {
+    
+   }
+}
+}
