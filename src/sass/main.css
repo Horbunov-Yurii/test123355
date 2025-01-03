@@ -1,17 +1,17 @@
 .container {
   max-width: 1264px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 304px) {
   .container {
-    width: 480px;
+    width: 304px;
   }
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 7752px) {
   .container {
-    width: 768px;
+    width: 752px;
   }
 }
 @media screen and (min-width: 1264px) {
@@ -25,7 +25,6 @@ body {
 }
 
 a {
-  color: none;
   text-decoration: none;
   padding: 0;
   margin: 0;
@@ -67,41 +66,80 @@ button {
   padding-top: 100px;
   padding-bottom: 69px;
 }
+.delivery__box {
+  display: flex;
+  align-items: center;
+}
 .delivery__title {
   color: #000;
-  font-size: 44px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.22;
+  margin-bottom: 40px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 720px) {
   .delivery__title {
-    font-size: 24px;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .delivery__title {
+    font-size: 44px;
+    margin-bottom: 91px;
+  }
+}
+.delivery__line {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #000;
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 720px) {
+  .delivery__line {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .delivery__line {
+    margin-bottom: 91px;
   }
 }
 .delivery__span {
   color: #000;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 1.23;
+  line-height: 1.2;
+  border-radius: 50%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1264px) {
   .delivery__span {
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 .delivery__text {
   color: #000;
-  font-size: 32px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: normal;
-}
-@media screen and (min-width: 480px) {
-  .delivery__text {
-    font-size: 14px;
-  }
+  line-height: 1.2;
+  display: flex;
+  gap: 20px;
 }
 @media screen and (min-width: 720px) {
   .delivery__text {
     font-size: 24px;
+    gap: 32px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .delivery__text {
+    font-size: 32px;
+    gap: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
